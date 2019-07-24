@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CF5EF1E5697428AEDD6B23 /* Pods_soundboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202C3A182515DE6E8DF3D871 /* Pods_soundboard.framework */; };
+		36B1A42222C0987F00360AE8 /* mario_bros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36B1A42122C0987F00360AE8 /* mario_bros.mp3 */; };
+		36B1A42422C098E800360AE8 /* toet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36B1A42322C098E800360AE8 /* toet.mp3 */; };
+		36B1A42622C0997E00360AE8 /* broken_angel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36B1A42522C0997E00360AE8 /* broken_angel.mp3 */; };
+		36B4043D22DB205800143D76 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4043C22DB205800143D76 /* Api.swift */; };
+		36B4044122DB258A00143D76 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4044022DB258A00143D76 /* UserController.swift */; };
+		36B4044322DB2AEF00143D76 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4044222DB2AEF00143D76 /* UserCell.swift */; };
+		36B4044522DB2CB600143D76 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4044422DB2CB600143D76 /* User.swift */; };
 		36EFD19422BF79F400D6EA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EFD19322BF79F400D6EA5B /* AppDelegate.swift */; };
 		36EFD19622BF79F400D6EA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EFD19522BF79F400D6EA5B /* ViewController.swift */; };
 		36EFD19922BF79F400D6EA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EFD19722BF79F400D6EA5B /* Main.storyboard */; };
@@ -15,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08390D0071B9F414CD98BE5F /* Pods-soundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soundboard.debug.xcconfig"; path = "Target Support Files/Pods-soundboard/Pods-soundboard.debug.xcconfig"; sourceTree = "<group>"; };
+		202C3A182515DE6E8DF3D871 /* Pods_soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B1A42122C0987F00360AE8 /* mario_bros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mario_bros.mp3; sourceTree = "<group>"; };
+		36B1A42322C098E800360AE8 /* toet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toet.mp3; sourceTree = "<group>"; };
+		36B1A42522C0997E00360AE8 /* broken_angel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = broken_angel.mp3; sourceTree = "<group>"; };
+		36B4043C22DB205800143D76 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		36B4044022DB258A00143D76 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		36B4044222DB2AEF00143D76 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		36B4044422DB2CB600143D76 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		36EFD19022BF79F400D6EA5B /* soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EFD19322BF79F400D6EA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36EFD19522BF79F400D6EA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,7 @@
 		36EFD19A22BF79F500D6EA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36EFD19D22BF79F500D6EA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36EFD19F22BF79F500D6EA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCBF8AF9DBA21E515A1508E /* Pods-soundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soundboard.release.xcconfig"; path = "Target Support Files/Pods-soundboard/Pods-soundboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CF5EF1E5697428AEDD6B23 /* Pods_soundboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				36EFD19222BF79F400D6EA5B /* soundboard */,
 				36EFD19122BF79F400D6EA5B /* Products */,
+				B820EA153B3BD9760D8D7166 /* Pods */,
+				820AE7CB30E24C7863123867 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,46 @@
 		36EFD19222BF79F400D6EA5B /* soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				36F01F5622BF900B003D6F25 /* sounds */,
 				36EFD19322BF79F400D6EA5B /* AppDelegate.swift */,
 				36EFD19522BF79F400D6EA5B /* ViewController.swift */,
+				36B4043C22DB205800143D76 /* Api.swift */,
 				36EFD19722BF79F400D6EA5B /* Main.storyboard */,
 				36EFD19A22BF79F500D6EA5B /* Assets.xcassets */,
 				36EFD19C22BF79F500D6EA5B /* LaunchScreen.storyboard */,
 				36EFD19F22BF79F500D6EA5B /* Info.plist */,
+				36B4044022DB258A00143D76 /* UserController.swift */,
+				36B4044222DB2AEF00143D76 /* UserCell.swift */,
+				36B4044422DB2CB600143D76 /* User.swift */,
 			);
 			path = soundboard;
+			sourceTree = "<group>";
+		};
+		36F01F5622BF900B003D6F25 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				36B1A42522C0997E00360AE8 /* broken_angel.mp3 */,
+				36B1A42322C098E800360AE8 /* toet.mp3 */,
+				36B1A42122C0987F00360AE8 /* mario_bros.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		820AE7CB30E24C7863123867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202C3A182515DE6E8DF3D871 /* Pods_soundboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B820EA153B3BD9760D8D7166 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08390D0071B9F414CD98BE5F /* Pods-soundboard.debug.xcconfig */,
+				8BCBF8AF9DBA21E515A1508E /* Pods-soundboard.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36EFD1A222BF79F500D6EA5B /* Build configuration list for PBXNativeTarget "soundboard" */;
 			buildPhases = (
+				27FA7064EAA679BA7CECE20D /* [CP] Check Pods Manifest.lock */,
 				36EFD18C22BF79F400D6EA5B /* Sources */,
 				36EFD18D22BF79F400D6EA5B /* Frameworks */,
 				36EFD18E22BF79F400D6EA5B /* Resources */,
+				BEC26B8A9B52080DB63A8F80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +178,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				36EFD19E22BF79F500D6EA5B /* LaunchScreen.storyboard in Resources */,
+				36B1A42622C0997E00360AE8 /* broken_angel.mp3 in Resources */,
+				36B1A42422C098E800360AE8 /* toet.mp3 in Resources */,
 				36EFD19B22BF79F500D6EA5B /* Assets.xcassets in Resources */,
+				36B1A42222C0987F00360AE8 /* mario_bros.mp3 in Resources */,
 				36EFD19922BF79F400D6EA5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27FA7064EAA679BA7CECE20D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soundboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC26B8A9B52080DB63A8F80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soundboard/Pods-soundboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soundboard/Pods-soundboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soundboard/Pods-soundboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36EFD18C22BF79F400D6EA5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B4043D22DB205800143D76 /* Api.swift in Sources */,
 				36EFD19622BF79F400D6EA5B /* ViewController.swift in Sources */,
+				36B4044522DB2CB600143D76 /* User.swift in Sources */,
+				36B4044122DB258A00143D76 /* UserController.swift in Sources */,
+				36B4044322DB2AEF00143D76 /* UserCell.swift in Sources */,
 				36EFD19422BF79F400D6EA5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +384,12 @@
 		};
 		36EFD1A322BF79F500D6EA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08390D0071B9F414CD98BE5F /* Pods-soundboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LFSN6MZPZ;
 				INFOPLIST_FILE = soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +397,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dustry.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +405,12 @@
 		};
 		36EFD1A422BF79F500D6EA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCBF8AF9DBA21E515A1508E /* Pods-soundboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LFSN6MZPZ;
 				INFOPLIST_FILE = soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dustry.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
